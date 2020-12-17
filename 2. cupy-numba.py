@@ -50,3 +50,4 @@ print(f'Time: {perf_counter()-start}s')
 
 import ctypes
 ctypes.CDLL('libnvvm.dll')
+ctypes.CDLL('libdevice64.dll')
