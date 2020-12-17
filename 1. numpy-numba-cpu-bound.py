@@ -61,3 +61,9 @@ start=time.time()
 print(hypot(3,5))
 end=time.time()
 print("Time: %.5f"%(end-start))
+
+# numba compiled func has the py_func to check for pythonic implementation
+hypot.py_func(3,5)
+
+# Check type inference by numba
+hypot.inspect_types()
