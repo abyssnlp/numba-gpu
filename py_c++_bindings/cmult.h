@@ -1,5 +1,5 @@
 #ifdef _MSC_VER
-    #define EXPORT_SYMBOL _declspec(dllexport)
+    #define EXPORT_SYMBOL __declspec(dllexport)
 #else
     #define EXPORT_SYMBOL
 #endif

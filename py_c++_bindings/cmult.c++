@@ -1,4 +1,5 @@
 #include<iostream>
+#include "cppmult.hpp"
 
 using namespace std;
 float cmult(int param1,float param2){
